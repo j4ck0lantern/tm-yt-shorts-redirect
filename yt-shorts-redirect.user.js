@@ -12,12 +12,21 @@
 (function() {
     'use strict';
 
+    let isRedirecting = false;
+
     // This function checks the URL and performs the redirect if necessary
     function checkAndRedirect() {
+        if (isRedirecting) {
+            return;
+        }
+
         const currentUrl = window.location.href;
 
         // Check if the URL is a YouTube Short
         if (currentUrl.includes('/shorts/')) {
+            // Set the flag to prevent multiple redirects
+            isRedirecting = true;
+
             // Replace '/shorts/' with '/watch?v=' to get the standard video URL
             const newUrl = currentUrl.replace('/shorts/', '/watch?v=');
 
@@ -26,6 +35,8 @@
             // because it doesn't create an entry in the browser's history,
             // so the "back" button will work as expected.
             window.location.replace(newUrl);
+        } else {
+            isRedirecting = false;
         }
     }
 

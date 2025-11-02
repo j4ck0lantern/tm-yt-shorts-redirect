@@ -1,5 +1,15 @@
 # YouTube Shorts to Watch Redirect
 
+> [!WARNING]
+> ### ⚠️ Security Warning
+> Installing user scripts from any source can be a security risk. By installing this script, you are allowing code from this repository to run in your browser. If this codebase were ever compromised, it could potentially be used to introduce threats to your system.
+>
+> **Recommended Practice:**
+> 1. **Fork this repository:** Create your own copy of this project under your GitHub account.
+> 2. **Review the code:** Carefully examine the code to ensure you understand what it does.
+> 3. **Install from your fork:** Install the user script from your own repository.
+> 4. **Periodically sync changes:** To get updates, periodically sync your fork with this repository after reviewing the new changes.
+
 A user script that automatically redirects YouTube Shorts videos to the standard "watch" video player.
 
 ## How it Works
