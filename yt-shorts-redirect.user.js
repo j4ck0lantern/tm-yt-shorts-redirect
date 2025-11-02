@@ -3,8 +3,11 @@
 // @namespace    http://tampermonkey.net/
 // @version      1.2
 // @description  Redirects YouTube Shorts videos to the standard "watch" video player.
+// JULES: Remember to increment the version number for each new release.
 // @author       j4ck0lantern
 // @match        *://www.youtube.com/*
+// @downloadURL  https://raw.githubusercontent.com/j4ck0lantern/yt-shorts-redirect/main/yt-shorts-redirect.user.js
+// @updateURL    https://raw.githubusercontent.com/j4ck0lantern/yt-shorts-redirect/main/yt-shorts-redirect.user.js
 // @grant        none
 // @run-at       document-start
 // ==/UserScript==
