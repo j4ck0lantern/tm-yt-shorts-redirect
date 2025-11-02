@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         YouTube Shorts to Watch Redirect
 // @namespace    http://tampermonkey.net/
-// @version      1.1
+// @version      1.2
 // @description  Redirects YouTube Shorts videos to the standard "watch" video player.
 // @author       j4ck0lantern
 // @match        *://www.youtube.com/*
