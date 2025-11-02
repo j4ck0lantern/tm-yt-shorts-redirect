@@ -1,8 +1,7 @@
 # YouTube Shorts to Watch Redirect
 
 > [!WARNING]
-> ### ⚠️ Security Warning
-> Installing user scripts from any source can be a security risk. By installing this script, you are allowing code from this repository to run in your browser. If this codebase were ever compromised, it could potentially be used to introduce threats to your system.
+> ⚠️ Installing user scripts from any source can be a security risk. By installing this script, you are allowing code from this repository to run in your browser. If this codebase were ever compromised, it could potentially be used to introduce threats to your system.
 >
 > **Recommended Practice:**
 > 1. **Fork this repository:** Create your own copy of this project under your GitHub account.
@@ -14,7 +13,7 @@ A user script that automatically redirects YouTube Shorts videos to the standard
 
 ## How it Works
 
-This script monitors the URL of the page you are on. If it detects that you are viewing a YouTube Short (i.e., the URL contains "/shorts/"), it will automatically redirect you to the standard video player by replacing "/shorts/" with "/watch?v=". This allows you to watch the video with the standard YouTube interface, including the progress bar, comments, and other features not available in the Shorts player.
+This script monitors the URL of the page you are on (@match for *://www.youtube.com/*). If it detects that you are viewing a YouTube Short (i.e., the URL contains "/shorts/"), it will automatically redirect you to the standard video player by replacing "/shorts/" with "/watch?v=". This allows you to watch the video with the standard YouTube interface, including the progress bar, comments, and other features not available in the Shorts player.
 
 The script is designed to be lightweight and efficient, checking the URL every 100 milliseconds to ensure a quick and seamless redirection.
 
