@@ -32,3 +32,5 @@ Once installed, the script will run automatically in the background. Simply navi
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+The MIT License is a permissive free software license that allows for reuse within proprietary software, provided that all copies of the licensed software include a copy of the MIT License terms and the copyright notice. In short, you are free to use, modify, and distribute this software as you see fit, as long as you include the original copyright and license notice.
